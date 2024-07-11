@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(204, 250, 204);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid green;
+    font-size: large;
+    
+}
+.navbar h1 {
+    margin: 10px;
+    font-family: cursive;
+    color: green;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar li{
+    text-decoration: none;
+   
+    
+}
+.navbar  a {
+    text-decoration: none;
+    padding: 5px;
+}
+.lsbtn{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+

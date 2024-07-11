@@ -1,0 +1,36 @@
+footer {
+    background-color: #c4f9c7;
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo h3 {
+    width: 100px;
+    color: forestgreen;
+    height: auto;
+    font-family: cursive;
+}
+
+.footer-info, .footer-contact {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-info h3, .footer-contact h3 {
+    color: #0d6e24;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #524d4d;
+}
